@@ -1,0 +1,87 @@
+*{
+	outline: px solid red !important;
+}
+
+.mainContainer{
+	width: 100%;
+	height: 600px;
+	padding: 100px;
+}
+
+.mainText{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	color: #fff;
+}
+
+#div1 {
+	width: 100%;
+	height: 200px;
+}
+
+#div2 {
+	width: 100%;
+	height: 100px;
+	line-height: 110px;
+	border-radius:10: 
+
+}
+
+#div2 h1{
+	float: left;
+	font-weight: 400px;
+	color:#515151;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#div2 ul{
+	float: right;
+	position: relative;
+	margin-right: 20px;
+	line-height: 105px;
+}
+
+#div2 ul li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+#div2 ul li a{
+	padding:15px;
+	text-decoration: none;
+	color: grey;
+}
+
+#div2 ul li:hover a{
+	background: #9c27b0; 
+	color: #fff;
+	transition: all 0.80s;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#div2 ul li:hover #menu_active a{
+	background: #9c27b0; 
+	color: #fff;
+	transition: all 0.80s;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#menu_active ul li:hover #menu_active a{
+	background: #9c27b0; 
+	color: #fff;
+	transition: all 0.80s;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#div2 ul li:hover ul {
+	display: block;
+}
+
+.spaceText{
+	padding-left: 55px;
+}
+
+.iconCenter{
+	vertical-align: middle;
+}
