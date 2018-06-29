@@ -8,6 +8,12 @@
 	padding: 100px;
 }
 
+.mainCintillo{
+  width: 50%;
+  height: 60px;
+  padding: 100px;
+}
+
 .mainText{
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	color: #fff;
@@ -163,4 +169,12 @@
   font-weight: normal;
   font-size: 12px;
   text-align: center;
+}
+
+img{
+ max-width: 100%;
+}
+
+video {
+ max-width: 100%; 
 }
